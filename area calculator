@@ -1,0 +1,16 @@
+#include <iostream>
+
+int main() {
+	double width;
+	double height;
+	double area;
+
+
+	std::cout << "Width: ";
+	std::cin >> width;
+	std::cout << "Height: ";
+	std::cin >> height;
+	area = width * height;
+	std::cout << "A: " << area;
+
+}
